@@ -13,26 +13,57 @@ In expressive speech synthesis, there are high requirements for emotion interpre
 
 # Audio Samples
 
-
 ## Natural 
 
 here put some nautral audios
 
-## AB test
+## 1. AB test
+### a. Performance on *neutral*
+We first show the performance of systems on *neutral*. 
 
-balabala
 | system| Sample1 | Sample2|
 | --- | --- | --- |
 | baseline | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/baseline/1.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/baseline/2.wav"></audio> |
-| style_id | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/style_id/1.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/style_id/2.wav"></audio> |
-| GST_156 | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_156/1.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_156/2.wav"></audio> |
-| GST_162 | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_162/1.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_162/2.wav"></audio> |
-| GST_SC_162 | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_SC_162/1.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_SC_162/2.wav"></audio> |
-| GST_SC_163 | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_SC_163/1.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_SC_163/2.wav"></audio> |
-| GST_no_DA | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_no_DA/1.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_no_DA/2.wav"></audio> |
+| ET-Taco | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/ET_Taco/1.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/ET_Taco/2.wav"></audio> |
+| ET-GST | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST/1.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST/2.wav"></audio> |
+| ET-GST-SC | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_SC/1.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_SC/2.wav"></audio> |
+| ET-GST-SC-no-DA | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_SC_no_DA/1.wav"></audio> | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/1_neutral/GST_SC_no_DA/2.wav"></audio> |
 
+### b. Comparsion of ET-Taco and ET-GST
+As mentioned in the paper, ET-GST is much stable than ET-Taco.
 
-
+<table>
+<thead>
+  <tr>
+    <th>system</th>
+    <th>ET_Taco</th>
+    <th>ET_GST</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="5">Samples</td>
+    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/2_ET_Taco_GST/ET_Taco/1.wav"></audio> </td>
+    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/2_ET_Taco_GST/ET_GST/1.wav"></audio> </td>
+  </tr>
+  <tr>
+    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/2_ET_Taco_GST/ET_Taco/2.wav"></audio> </td>
+    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/2_ET_Taco_GST/ET_GST/2.wav"></audio> </td>
+  </tr>
+  <tr>
+    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/2_ET_Taco_GST/ET_Taco/3.wav"></audio> </td>
+    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/2_ET_Taco_GST/ET_GST/3.wav"></audio> </td>
+  </tr>
+  <tr>
+    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/2_ET_Taco_GST/ET_Taco/4.wav"></audio> </td>
+    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/2_ET_Taco_GST/ET_GST/4.wav"></audio> </td>
+  </tr>
+  <tr>
+    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/2_ET_Taco_GST/ET_Taco/5.wav"></audio> </td>
+    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/ab/2_ET_Taco_GST/ET_GST/5.wav"></audio> </td>
+  </tr>
+</tbody>
+</table>
 ## Converted Samples
 
 <!-- * **M1:** BASE1
