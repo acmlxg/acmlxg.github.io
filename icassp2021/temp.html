@@ -108,68 +108,222 @@ Samples
 </tr>
 </tbody>
 </table>
-<h2 id="converted-samples">Converted Samples</h2>
-<!-- * **M1:** BASE1
-* **M2:** BASE2
-* **M3:** BASE3
-* **M4:** BASE3 + ME
-* **M5:** BASE3 + ME + SC
-* **M6:** BASE3 + ME + SC + MS **\(our proposed model\)** -->
-<!-- #### Target Female
-
-| | F1 | F2 | F3 | M1 | M2 | M3 |
-| --- | --- | --- | --- | --- | --- | --- |
-| BASE1 | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m1/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m1/F_F007_WXR_011_026-01.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m1/F_F008_ZYF_008_009-00.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m1/M_CDM008_GG_99_032-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m1/M_M003_CYC_018_020-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m1/M_M005_S_013_023-06.wav"></audio> |
-| BASE2 | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m2/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m2/F_F007_WXR_011_026-01.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m2/F_F008_ZYF_008_009-00.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m2/M_CDM008_GG_99_032-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m2/M_M003_CYC_018_020-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m2/M_M005_S_013_023-06.wav"></audio> |
-| BASE3 | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m3/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m3/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m3/F_F008_ZYF_008_009-00_F_F008_ZYF_008_009-00.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m3/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m3/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m3/M_M005_S_013_023-06_M_M005_S_013_023-06.npy.wav"></audio> |
-| **Proposed** | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m6/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m6/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m6/F_F008_ZYF_008_009-00_F_F008_ZYF_008_009-00.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m6/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m6/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m6/M_M005_S_013_023-06_M_M005_S_013_023-06.npy.wav"></audio> |
-
-#### Target Male
-
-| | F1 | F2 | F3 | M1 | M2 | M3 |
-| --- | --- | --- | --- | --- | --- | --- |
-| BASE1 | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m1/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m1/F_F007_WXR_011_026-01.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m1/F_F008_ZYF_008_009-00.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m1/M_CDM008_GG_99_032-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m1/M_M003_CYC_018_020-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m1/M_M005_S_013_023-06.wav"></audio> |
-| BASE2 | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m2/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m2/F_F007_WXR_011_026-01.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m2/F_F008_ZYF_008_009-00.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m2/M_CDM008_GG_99_032-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m2/M_M003_CYC_018_020-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m2/M_M005_S_013_023-06.wav"></audio> |
-| BASE3 | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m3/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m3/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m3/F_F008_ZYF_008_009-00_F_F008_ZYF_008_009-00.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m3/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m3/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m3/M_M005_S_013_023-06_M_M005_S_013_023-06.npy.wav"></audio> |
-| **Proposed** | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m6/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m6/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m6/F_F008_ZYF_008_009-00_F_F008_ZYF_008_009-00.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m6/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m6/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m6/M_M005_S_013_023-06_M_M005_S_013_023-06.npy.wav"></audio> |
-
-
-
-## Ablation Tests
-
-#### Target Female
-
-| | F1 | F2 | M1 | M2 |
-| --- | --- | --- | --- | --- |
-| BASE3 | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m3/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m3/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m3/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m3/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> |
-| + ME | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m4/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m4/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m4/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m4/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> |
-| + SC | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m5/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m5/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m5/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m5/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> |
-| + MS **\(Proposed\)** | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m6/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m6/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m6/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/m6/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> |
-
-#### Target Male
-
-| | F1 | F2 | M1 | M2 |
-| --- | --- | --- | --- | --- |
-| BASE3 | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m3/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m3/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m3/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m3/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> |
-| + ME | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m4/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m4/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m4/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m4/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> |
-| + SC | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m5/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m5/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m5/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m5/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> |
-| + MS **\(Proposed\)** | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m6/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m6/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m6/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/m6/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> |
-
-
-## Noise Robustness Tests
-
-#### source SNR = 15.30
-
-| | F1 | F2 | M1 | M2 |
-| --- | --- | --- | --- | --- |
-| Source | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/source_noise1/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/source_noise1/F_F007_WXR_011_026-01.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/source_noise1/M_CDM008_GG_99_032-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/source_noise1/M_M003_CYC_018_020-02.wav"></audio> |
-| Target Female | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/noise1/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/noise1/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/noise1/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/noise1/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> |
-| Target Male | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/noise1/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/noise1/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/noise1/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/noise1/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> |
-
-#### source SNR = 8.18
-
-| | F1 | F2 | M1 | M2 |
-| --- | --- | --- | --- | --- |
-| Source | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/source_noise2/F_CDF008_XT_097_023-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/source_noise2/F_F007_WXR_011_026-01.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/source_noise2/M_CDM008_GG_99_032-02.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/source_noise2/M_M003_CYC_018_020-02.wav"></audio> |
-| Target Female | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/noise2/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/noise2/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/noise2/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/BB/noise2/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> |
-| Target Male | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/noise2/F_CDF008_XT_097_023-02_F_CDF008_XT_097_023-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/noise2/F_F007_WXR_011_026-01_F_F007_WXR_011_026-01.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/noise2/M_CDM008_GG_99_032-02_M_CDM008_GG_99_032-02.npy.wav"></audio> | <audio id="audio" controls="" preload="none" style="width: 140px;height: 50px"> <source id="wav" src="audios/AM2/noise2/M_M003_CYC_018_020-02_M_M003_CYC_018_020-02.npy.wav"></audio> | -->
+<h2 id="ablation-of-speaker-classifier">2. Ablation of speaker classifier</h2>
+<p>$ S_e $: $ S_{ne}$:</p>
+<h2 id="emotion-perception">3. Emotion perception</h2>
+<table>
+<thead>
+<tr>
+<th>
+systems
+</th>
+<th>
+ET_Taco
+</th>
+<th>
+ET_GST
+</th>
+<th>
+ET_GST_SC
+</th>
+</tr>
+</thead>
+<tbody>
+<!-- neutral -->
+<tr>
+<td rowspan="5">
+neutral
+</td>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/neutral/1.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/neutral/1.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/neutral/1.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/neutral/2.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/neutral/2.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/neutral/2.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/neutral/3.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/neutral/3.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/neutral/3.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/neutral/4.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/neutral/4.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/neutral/4.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/neutral/5.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/neutral/5.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/neutral/5.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<!-- happy -->
+<tr>
+<td rowspan="5">
+happy
+</td>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/happy/1.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/happy/1.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/happy/1.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/happy/2.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/happy/2.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/happy/2.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/happy/3.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/happy/3.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/happy/3.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/happy/4.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/happy/4.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/happy/4.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/happy/5.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/happy/5.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/happy/5.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<!-- angry -->
+<tr>
+<td rowspan="5">
+angry
+</td>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/angry/1.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/angry/1.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/angry/1.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/angry/2.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/angry/2.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/angry/2.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/angry/3.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/angry/3.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/angry/3.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/angry/4.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/angry/4.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/angry/4.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/angry/5.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/angry/5.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/angry/5.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<!-- sad -->
+<tr>
+<td rowspan="5">
+sad
+</td>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/sad/1.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/sad/1.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/sad/1.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/sad/2.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/sad/2.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/sad/2.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/sad/3.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/sad/3.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/sad/3.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/sad/4.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/sad/4.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/sad/4.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+<tr>
+<td>
+<audio id="audio" controls="" preload="none" style="height: 40px">
+<source id="wav" src="audios/emotion_perception/ET_Taco/sad/5.wav">
+</audio>
+</td>
+<pre><code>&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST/sad/5.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;
+&lt;td&gt; &lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot; style=&quot;height: 40px&quot;&gt; &lt;source id=&quot;wav&quot; src=&quot;audios/emotion_perception/ET_GST_SC/sad/5.wav&quot;&gt;&lt;/audio&gt; &lt;/td&gt;</code></pre>
+</tr>
+</tbody>
+</table>
