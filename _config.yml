@@ -1,1 +1,3 @@
-theme: jekyll-theme-slate
+title: Emotion Transfer Based on Global Style Tokens and Adversarial Training
+description: "Pengfei Wu, Junjie Pan, Junhui Zhang, ChenChang Xu, Lin Wu, Xiang Yin, Zejun Ma<br><br>ByteDance AI Lab"
+theme: jekyll-theme-cayman
