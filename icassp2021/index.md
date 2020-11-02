@@ -85,7 +85,7 @@ $ S_{ne}$:
 <tbody>
   <!-- neutral -->
   <tr>
-    <td rowspan="5">neutral</td>
+    <td rowspan="2">neutral</td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/neutral/1.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/neutral/1.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/neutral/1.wav"></audio> </td>
@@ -95,24 +95,9 @@ $ S_{ne}$:
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/neutral/2.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/neutral/2.wav"></audio> </td>
   </tr>
-  <tr>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/neutral/3.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/neutral/3.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/neutral/3.wav"></audio> </td>
-  </tr>
-  <tr>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/neutral/4.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/neutral/4.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/neutral/4.wav"></audio> </td>
-  </tr>
-  <tr>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/neutral/5.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/neutral/5.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/neutral/5.wav"></audio> </td>
-  </tr>
   <!-- happy -->
   <tr>
-    <td rowspan="5">happy</td>
+    <td rowspan="2">happy</td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/happy/1.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/happy/1.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/happy/1.wav"></audio> </td>
@@ -122,24 +107,9 @@ $ S_{ne}$:
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/happy/2.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/happy/2.wav"></audio> </td>
   </tr>
-  <tr>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/happy/3.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/happy/3.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/happy/3.wav"></audio> </td>
-  </tr>
-  <tr>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/happy/4.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/happy/4.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/happy/4.wav"></audio> </td>
-  </tr>
-  <tr>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/happy/5.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/happy/5.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/happy/5.wav"></audio> </td>
-  </tr>
   <!-- angry -->
   <tr>
-    <td rowspan="5">angry</td>
+    <td rowspan="2">angry</td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/angry/1.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/angry/1.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/angry/1.wav"></audio> </td>
@@ -149,24 +119,9 @@ $ S_{ne}$:
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/angry/2.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/angry/2.wav"></audio> </td>
   </tr>
-  <tr>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/angry/3.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/angry/3.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/angry/3.wav"></audio> </td>
-  </tr>
-  <tr>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/angry/4.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/angry/4.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/angry/4.wav"></audio> </td>
-  </tr>
-  <tr>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/angry/5.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/angry/5.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/angry/5.wav"></audio> </td>
-  </tr>
   <!-- sad -->
   <tr>
-    <td rowspan="5">sad</td>
+    <td rowspan="2">sad</td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/sad/1.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/sad/1.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/sad/1.wav"></audio> </td>
@@ -175,21 +130,6 @@ $ S_{ne}$:
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/sad/2.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/sad/2.wav"></audio> </td>
     <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/sad/2.wav"></audio> </td>
-  </tr>
-  <tr>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/sad/3.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/sad/3.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/sad/3.wav"></audio> </td>
-  </tr>
-  <tr>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/sad/4.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/sad/4.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/sad/4.wav"></audio> </td>
-  </tr>
-  <tr>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_Taco/sad/5.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST/sad/5.wav"></audio> </td>
-    <td> <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/emotion_perception/ET_GST_SC/sad/5.wav"></audio> </td>
   </tr>
 </tbody>
 </table>
