@@ -10,6 +10,16 @@ layout: default
 
 In expressive speech synthesis, there are high requirements for emotion interpretation. However, it is time-consuming to acquire emotional audio corpus for arbitrary speakers due to their deduction ability. This paper proposes a Tacotron-based model using Global Style Tokens (GSTs) to transfer the emotion control ability from one speaker with multiple emotions to another. An adversarial training mechanism and a speaker classifier are introduced to eliminate the speaker-related information in tokens. Experimental results show that the proposed method can achieve the goal and the synthesized speech outperforms significantly on naturalness than the Tacotron baseline.        
 
+### Fine-grained emotion transfer using proposed method after paper submission*
+|emotion|sample|
+| --- | --- |
+| neutral | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/neutral.wav"></audio> |
+| happy | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/happy.wav"></audio> |
+| sad | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/sad.wav"></audio> |
+| angry | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/angry.wav"></audio> |
+| scare | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/scare.wav"></audio> |
+| surprise | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/surprise.wav"></audio> |
+| hate | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/hate.wav"></audio> |
 
 # Audio Samples
 ## 1. AB test
