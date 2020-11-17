@@ -14,13 +14,13 @@ In expressive speech synthesis, there are high requirements for emotion interpre
 
 |emotion|sample|
 | --- | --- |
-| neutral | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/neutral.wav"></audio> |
-| happy | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/happy.wav"></audio> |
-| sad | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/sad.wav"></audio> |
-| angry | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/angry.wav"></audio> |
-| scare | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/scare.wav"></audio> |
-| surprise | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/surprise.wav"></audio> |
-| hate | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="fine-grain/hate.wav"></audio> |
+| neutral | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/fine-grain/neutral.wav"></audio> |
+| happy | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/fine-grain/happy.wav"></audio> |
+| sad | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/fine-grain/sad.wav"></audio> |
+| angry | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/fine-grain/angry.wav"></audio> |
+| scare | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/fine-grain/scare.wav"></audio> |
+| surprise | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/fine-grain/surprise.wav"></audio> |
+| hate | <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="audios/fine-grain/hate.wav"></audio> |
 
 # Audio Samples
 ## 1. AB test
