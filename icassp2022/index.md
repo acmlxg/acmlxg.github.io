@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<!-- <h1 align='center'><font size='10'> Emotion Transfer Based on Global Style Tokens and Adversarial Training </font></h1>
+<h1 align='center'><font size='10'> Cross-speaker Emotion Transfer Based on Speaker Condition Layer Normalization and Semi-Supervised Training in Text-To-Speech </font></h1>
 
 <center>Pengfei Wu, Junjie Pan, Chenchang Xu, Junhui Zhang, Lin Wu, Xiang Yin, Zejun Ma</center>
- -->
+
 # Abstract
 
 In expressive speech synthesis, there are high requirements for emotion interpretation. However, it is time-consuming to acquire emotional audio corpus for arbitrary speakers due to their deduction ability. In response to this problem, this paper proposes a cross-speaker emotion transfer method that can realize the transfer of emotions from source speaker to target speaker. A set of emotion tokens is firstly defined to represent various categories of emotions. They are trained to be highly correlated with corresponding emotions for controllable synthesis by cross-entropy loss and semi-supervised training strategy. Meanwhile, to eliminate the down-gradation to the timbre similarity from cross-speaker emotion transfer, speaker condition layer normalization is implemented to model speaker characteristics. 
@@ -80,17 +80,201 @@ Experimental results show that the proposed method outperforms the multi-referen
             <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/reference/source/hate.wav"></audio>
         </td>
     </tr>
-    
 </table>
 
 
 # Synthesized samples
-| emotion| baseline | M1 | M2 | proposed |
-| --- | --- | --- | --- | --- | 
-| **neutral**|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/neutral_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/neutral_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/neutral_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/neutral_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/neutral_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/neutral_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/neutral_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/neutral_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/neutral_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/neutral_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/neutral_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/neutral_3.wav"></audio>|
-| **happy**|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/happy_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/happy_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/happy_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/happy_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/happy_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/happy_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/happy_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/happy_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/happy_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/happy_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/happy_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/happy_3.wav"></audio>|
-| **sad**|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/sad_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/sad_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/sad_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/sad_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/sad_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/sad_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/sad_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/sad_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/sad_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/sad_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/sad_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/sad_3.wav"></audio>|
-| **angry**|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/angry_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/angry_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/angry_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/angry_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/angry_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/angry_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/angry_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/angry_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/angry_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/angry_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/angry_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/angry_3.wav"></audio>|
-| **surprise**|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/surprise_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/surprise_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/surprise_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/surprise_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/surprise_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/surprise_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/surprise_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/surprise_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/surprise_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/surprise_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/surprise_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/surprise_3.wav"></audio>|
-| **scare**|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/scare_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/scare_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/scare_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/scare_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/scare_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/scare_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/scare_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/scare_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/scare_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/scare_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/scare_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/scare_3.wav"></audio>|
-| **hate**|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/hate_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/hate_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/hate_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/hate_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/hate_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/hate_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/hate_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/hate_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/hate_3.wav"></audio>|<audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/hate_1.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/hate_2.wav"></audio><audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/hate_3.wav"></audio>|
+<table>
+    <tr>
+        <th>
+            emotion
+        </th>
+        <th>
+            baseline
+        </th>
+        <th>
+            M1
+        </th>
+        <th>
+            M2
+        </th>
+        <th>
+            proposed
+        </th>
+    </tr>
+    <tr>
+        <th>
+            neutral
+        </th>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/neutral_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/neutral_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/neutral_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/neutral_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/neutral_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/neutral_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/neutral_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/neutral_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/neutral_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/neutral_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/neutral_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/neutral_3.wav"></audio>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            happy
+        </th>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/happy_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/happy_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/happy_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/happy_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/happy_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/happy_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/happy_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/happy_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/happy_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/happy_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/happy_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/happy_3.wav"></audio>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            sad
+        </th>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/sad_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/sad_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/sad_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/sad_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/sad_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/sad_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/sad_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/sad_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/sad_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/sad_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/sad_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/sad_3.wav"></audio>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            angry
+        </th>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/angry_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/angry_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/angry_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/angry_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/angry_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/angry_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/angry_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/angry_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/angry_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/angry_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/angry_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/angry_3.wav"></audio>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            surprise
+        </th>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/surprise_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/surprise_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/surprise_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/surprise_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/surprise_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/surprise_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/surprise_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/surprise_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/surprise_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/surprise_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/surprise_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/surprise_3.wav"></audio>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            scare
+        </th>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/scare_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/scare_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/scare_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/scare_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/scare_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/scare_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/scare_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/scare_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/scare_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/scare_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/scare_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/scare_3.wav"></audio>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            hate
+        </th>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/hate_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/hate_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/baseline/hate_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/hate_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/hate_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M1/hate_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/hate_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/hate_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/M2/hate_3.wav"></audio>
+        </td>
+        <td>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/hate_1.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/hate_2.wav"></audio>
+            <audio id="audio" controls="" preload="none" style="height: 40px"> <source id="wav" src="demos/proposed/ratio_1.0/hate_3.wav"></audio>
+        </td>
+    </tr>
+</table>
