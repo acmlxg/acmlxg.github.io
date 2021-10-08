@@ -7,10 +7,10 @@
 
 <center>Pengfei Wu, Junjie Pan, Chenchang Xu, Junhui Zhang, Lin Wu, Xiang Yin, Zejun Ma</center>
 
+<h3>continue updating...</h3>
 <h2>Abstract</h2>
 
-In expressive speech synthesis, there are high requirements for emotion interpretation. However, it is time-consuming to acquire emotional audio corpus for arbitrary speakers due to their deduction ability. In response to this problem, this paper proposes a cross-speaker emotion transfer method that can realize the transfer of emotions from source speaker to target speaker. A set of emotion tokens is firstly defined to represent various categories of emotions. They are trained to be highly correlated with corresponding emotions for controllable synthesis by cross-entropy loss and semi-supervised training strategy. Meanwhile, to eliminate the down-gradation to the timbre similarity from cross-speaker emotion transfer, speaker condition layer normalization is implemented to model speaker characteristics. 
-Experimental results show that the proposed method outperforms the multi-reference based baseline in terms of timbre similarity, stability and emotion perceive evaluations.       
+<div style="text-align: justify">In expressive speech synthesis, there are high requirements for emotion interpretation. However, it is time-consuming to acquire emotional audio corpus for arbitrary speakers due to their deduction ability. In response to this problem, this paper proposes a cross-speaker emotion transfer method that can realize the transfer of emotions from source speaker to target speaker. A set of emotion tokens is firstly defined to represent various categories of emotions. They are trained to be highly correlated with corresponding emotions for controllable synthesis by cross-entropy loss and semi-supervised training strategy. Meanwhile, to eliminate the down-gradation to the timbre similarity from cross-speaker emotion transfer, speaker condition layer normalization is implemented to model speaker characteristics. Experimental results show that the proposed method outperforms the multi-reference based baseline in terms of timbre similarity, stability and emotion perceive evaluations.</div>
 
 <h2>Reference speech of <i>source speaker</i> and <i>target speaker</i></h2>
 
@@ -85,6 +85,8 @@ Experimental results show that the proposed method outperforms the multi-referen
 
 
 <h2>Synthesized samples</h2>
+<h4><li>M1: An ablation model which removes the SCLN module in decoder LConv blocks and the speaker embeddings are added to encoder outputs.</li></h4> 
+<h4><li>M2: An ablation model which removes emotion classifier loss in the training stage, multi-head attention is utilized in this model.</li></h4> 
 <table border=1>
     <tr>
         <th>
